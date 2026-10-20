@@ -1,0 +1,20 @@
+:root {
+  color-scheme: light dark;
+
+  --color-background: light-dark(#ffffff, #111827);
+  --color-text: light-dark(#111827, #f9fafb);
+  --color-primary: light-dark(#2563eb, #93c5fd);
+  --color-border: light-dark(#e5e7eb, #374151);
+
+  --font-family: system-ui, sans-serif;
+  --font-size-base: 1rem;
+  --font-size-xl: 2rem;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  --radius-md: 0.5rem;
+}
