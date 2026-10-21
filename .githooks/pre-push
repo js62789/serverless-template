@@ -1,0 +1,3 @@
+#!/bin/sh
+# Run the full check suite before pushing. Bypass with `git push --no-verify`.
+pnpm check

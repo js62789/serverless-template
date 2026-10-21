@@ -84,6 +84,8 @@ Everything under `public/` ships to the browser, so keep server-only code out of
 | `pnpm test:watch`   | Vitest in watch mode                 |
 | `pnpm check`        | Typecheck, lint, format check, tests |
 
+`pnpm install` points git at `.githooks/`, whose `pre-push` hook runs `pnpm check`. Skip it with `git push --no-verify`. The `Check` GitHub Actions workflow (`.github/workflows/check.yml`) runs `pnpm check` on every pull request and push to `main`.
+
 ## Testing
 
 Vitest runs two projects (see `vitest.config.ts`):

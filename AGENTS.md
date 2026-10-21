@@ -1,6 +1,7 @@
 # Development Guidelines
 
 ## Technology Stack
+
 - TypeScript
 - Remix v3
 - Cloudflare Workers
@@ -10,6 +11,7 @@
 - Vitest
 
 ## Engineering Principles
+
 - Follow existing repository conventions
 - Prefer simple, maintainable code
 - Minimize client-side JavaScript
@@ -18,6 +20,7 @@
 - Never modify secrets or credentials
 
 ## Workflow
+
 1. Inspect relevant files
 2. Plan nontrivial changes
 3. Implement focused modifications
